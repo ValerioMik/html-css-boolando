@@ -4,8 +4,28 @@
     padding:0;
     box-sizing: border-box;
 }
+main{
+    width: 60%;
+    margin: 0 auto;
+}
 
 /* main */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prodotti{
+   float: left;
+   width: calc(100% / 3); 
+   height: 300px;
+   /* regole thebug */
+   background-color: rgb(5, 62, 252);
+   border: solid 4px rgb(255, 255, 255);
+   
+
+}
 
 
 /* clearfix */

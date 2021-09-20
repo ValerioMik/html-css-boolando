@@ -20,7 +20,7 @@ main{
 .prodotti{
    float: left;
    width: calc(100% / 3); 
-   height: 300px;
+   height: 330px;
    border: solid 4px rgb(255, 255, 255);
    position: relative;
   
@@ -30,19 +30,19 @@ main{
 .sx, .cx, .dx{
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 270px;
     cursor: pointer;
 }
 .over{
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 270px;
     cursor: pointer;
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    
+
    
 }
 .prodotti:hover .over{
@@ -73,5 +73,30 @@ span{
     top: 10px;
     right: 0px;
     text-align: center;
-   
+}
+
+.sconto,.sost{
+    width: 17px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 253px;
+    left: 0px;
+    color: white;
+    font-size: 6px;
+    text-align: center;
+
+
+}
+
+.sost{
+    width: 40px;
+    height: 10px;
+    background-color: green;
+    left: 19px;
+}
+
+.noscont{
+    left: 0px;
 }

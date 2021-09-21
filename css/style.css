@@ -30,13 +30,12 @@ main{
 .sx, .cx, .dx{
     object-fit: cover;
     width: 100%;
-    height: 270px;
     cursor: pointer;
+    
 }
 .over{
     object-fit: cover;
     width: 100%;
-    height: 270px;
     cursor: pointer;
     display: none;
     position: absolute;
